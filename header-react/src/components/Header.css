@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(186, 43, 43);
+}
+
+nav strong {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+nav a {
+  font-family: "Courier New", Courier, monospace;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgb(212, 185, 185);
+  text-decoration: none;
+  transition: 0.5s;
+  background-color: rgb(53, 49, 49);
+}
